@@ -1,0 +1,30 @@
+ul{
+    margin-bottom: 50px;
+}
+
+.em-bloco li{
+    background: aqua;
+    margin-bottom: 10px;
+    width: 100px;
+    /* display: block; é padrão */
+}
+
+.em-linha li{
+    display: inline;
+    background: aqua;
+    width: 500px; /* não vai funcionar devido o inline deixar tudo em linha de fato. */
+}
+
+.em-linha-e-bloco li{
+    display: inline-block;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none;
+    background: aqua;
+    width: 100px;
+    height: 100px;
+}

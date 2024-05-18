@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    font-size: 20px;
+}
+
+h1{
+    color: green;
+}
+
+.paragrafo{
+    color: aqua;
+}
+
+#menu{
+    color: red;
+}
+
+.titulo{
+    font-size: 25px;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+
+p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: blueviolet;
+}
+
+div > p{
+    background-color: aqua;
+}
+
+div + p{
+    color: cadetblue;
+}
+
+a[target=-balck]{
+    color: brown;
+}
+
+a[href="google.com"]{
+    color: chocolate;
+}

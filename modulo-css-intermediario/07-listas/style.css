@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    background-color: aqua;
+    list-style: square inside url('./images/CSS\ icon.png');
+}
+
+ul li{
+    border: 1px solid black;
+    padding: 20px;
+}
+

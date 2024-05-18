@@ -1,0 +1,32 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+p::first-letter{
+    background-color: brown;
+}
+
+p::first-line{
+    color: blue;
+}
+
+.a::first-line{
+    font-size: 20px;
+}
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+
+h2::before{
+    content: url(images/android-chrome-192x192.png);
+}
+
+/* h2::before{
+    content: "teste ";
+} */
+
+h3::after{
+    content: url(images/android-chrome-192x192.png);
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body{
+    height: 1500px;
+    padding-top: 67px; /*valor retirado da soma da altura do elemento e do padding em cima e em baixo */
+}
+
+header{
+    font-size: 24px;
+    background-color: lightseagreen;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+}

@@ -1,0 +1,37 @@
+ /* mudando um por um
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px; */
+
+/* sentido horario 
+margin: 30px 15px 30px 15px; */
+
+/* cima e embaixo / esqueda e direita */
+
+p {
+    margin: 30px 15px;
+    padding: 20px;
+    background-color: blue;
+
+    /* varição
+    border-style: solid;
+    border-width: 20px;
+    border-color: red; */
+
+    /* recomendado */
+    border: solid 20px red;
+}
+
+/* Exemplo de variações de border em outra tag */
+h1{
+    border-style: solid;
+    border-width: 20px;
+
+    border-top-color: blue;
+    border-bottom-color: orangered;
+    border-left-color: yellow;
+    border-right-color: aqua;
+
+    border-color: blue orangered yellow aqua;
+}

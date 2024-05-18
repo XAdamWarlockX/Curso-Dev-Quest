@@ -1,0 +1,17 @@
+
+a {
+    cursor: grab;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}

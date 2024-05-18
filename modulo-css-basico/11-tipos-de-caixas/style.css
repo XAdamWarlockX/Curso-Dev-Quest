@@ -1,0 +1,28 @@
+
+/* serve para colocar uma largura e altura */
+
+h1{
+    display: block;
+}
+
+/* serve para retirar a largura e altura, deixando tudo linear */
+
+p{
+    display: inline;
+}
+
+/* a tag span é uma das pouca que vem por padrão o atributo inline 
+(a tag "a" támbem se aplica)
+*/
+
+span{
+    color: aqua;
+    background-color: blue;
+    
+    /* caso tivesse esse código as médidas seriam aplicadas  */
+    /* display: block; */
+
+    width: 200px;
+    height: 200px;
+
+}

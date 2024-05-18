@@ -1,0 +1,23 @@
+.container div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container.direction{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; / Padrão quando não houver um flex wrap difinido */
+}
+
+.container.wrap div{ /* Especificidade */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container.flow div{ /* Especificidade */
+    display: flex;
+    flex-flow: row nowrap; Padrão
+}

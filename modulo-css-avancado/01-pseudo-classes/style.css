@@ -1,0 +1,35 @@
+/* seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: blue;
+}
+
+p:not(.padrao){
+    font-size: 20px;
+}
+
+li:nth-child(odd){
+    background-color:darkorchid;
+}
+
+li:nth-child(even){
+    background-color: aqua;
+}
+
+li:nth-child(3n){
+    background-color: brown;
+}
+
+li:nth-child(4){
+    background-color: burlywood;
+}
+
+p:only-child{
+    background-color: black;
+}

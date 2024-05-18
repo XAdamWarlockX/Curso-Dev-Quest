@@ -1,0 +1,42 @@
+p{
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg-encurtado p {  /* efeito cascata */
+    background: black url('./images/cat-sitter-felino.jpg') no-repeat right top;
+    /* width: 718px; */
+    height: 600px;
+}
+
+.bg{ 
+    background-color: lightgreen; /* efeito cascata */
+    background-image: url('./images/cat-sitter-felino.jpg');
+}
+
+.bg-imagem{
+    width: 718px;
+    height: 482px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;  /*repeat-y vertical ou x horizontal */
+    height: 600px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 718px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.bg-position{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 600px;
+}

@@ -1,0 +1,24 @@
+
+                /* Efeito cascata */
+/* .container-cascata{
+    background-color: aqua;
+}
+
+.container-cascata{
+    background-color: orange; mais relevânte 
+} */
+ 
+
+ /* Especificidade */
+
+#meu-paragrafo{
+    background-color: red; /* mais relevânte */
+}
+
+
+.container-espeficidade p{
+    background-color: blue;
+}
+p {
+    background-color: lightskyblue;
+}

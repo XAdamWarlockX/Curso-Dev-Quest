@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+.coluna{
+    display: flex;
+    /* flex: 0; para que o flex-warp funcione o valor do flex tem que ser 0. */
+    background-color: aqua;
+    flex-direction: column;
+    margin: 1em;
+    flex: 0 1 250px;
+    /* width: 200px; */
+}
+
+.botao{
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+/* .coluna{
+    float: left;
+    width: 200px;
+}
+
+img{
+    max-width: 100%;
+} */
